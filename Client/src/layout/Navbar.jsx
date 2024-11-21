@@ -11,12 +11,11 @@ const Navbar = () => {
     >
       <div className="flex justify-between relative flex-wrap md:flex-nowrap md:whitespace-nowrap items-center p-4">
         <div href="#" className="flex items-center gap-2">
-          <Link
-            to="/dashbopardhome"
+          <div 
             className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
           >
             Post Management <span className="text-[red] text-lg">App</span>
-          </Link>
+          </div>
         </div>
       </div>
     </nav>
