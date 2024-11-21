@@ -92,7 +92,7 @@ const Home = () => {
                 .map((item) => (
                   <div
                     key={item._id}
-                    className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96 min-h-[530px]"
+                    className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg min-w-64 sm:w-96 sm:min-h-[530px]"
                   >
                     {/* Image Section */}
                     <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
@@ -114,7 +114,7 @@ const Home = () => {
                     </div>
 
                     {/* Buttons Section */}
-                    <div className="px-4 pb-4 pt-0 mt-2 flex justify-between items-center absolute bottom-4 left-0 right-0">
+                    <div className="px-4 pb-4 pt-0 mt-2 flex justify-between items-center sm:absolute bottom-4 left-0 right-0">
                       <button
                         className="rounded-md bg-red-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-red-500 active:bg-red-500 disabled:pointer-events-none disabled:opacity-50"
                         type="button"
